@@ -1,0 +1,15 @@
+Aprendemos const e let, variaveis e constantes,
+conteúdo que já tinhamos conhecimento, agora partindo
+para os operadores.
+
+Operadores Aritméticos
+
+"=" Aplica um valor.
+"+" Soma.
+"-" Diminui.
+"*" Multiplica.
+"/" Divide.
+"%" Resto da Divisão.
+
+toFixed(2); Utilizado para arredondar números que
+estão com muitas casa decimais.

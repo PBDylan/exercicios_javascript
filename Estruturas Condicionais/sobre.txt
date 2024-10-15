@@ -1,0 +1,23 @@
+Estruturas Condicionais
+
+O que é?
+
+Estruturas condicionais são blocos de código que permitem tomar decisões com base em condições específicas. Usando instruções 
+como if, else if e else, o programa executa diferentes ações dependendo se uma condição é verdadeira ou falsa, possibilitando
+um comportamento dinâmico.
+
+Boolean
+Valor 0 e 1, verdadeiro e falso.
+
+>, <, >=, <=
+Maior que, Menor que, Maior ou Igual, Menor ou Igual.
+
+=, ==, ===
+O primeiro é para atribuição, o segundo serve para igualdade e o terceiro é para comparações
+é o que a gente mais vai utilizar.
+
+
+If, else if e else
+
+Se, se não se e se não. Sempre que houver mais de uma condição, aplicar na extava ordem em
+que está escrito no título, se não, apenas ("if" e "else").
