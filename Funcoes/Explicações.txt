@@ -1,0 +1,89 @@
+É simples, basicamente, se trata de um trecho de código 
+responsável por realizar uma certa "função" que você pro-
+gramou, podendo ser chamado quantas vezes voc6e quiser.
+Fica mais simples de entender com um trecho:
+
+//Função para imprimir uma frase.
+
+function teste() {
+    console.log('teste');
+}
+
+//Pronto, agora após ela ser definida, ela precisa ser 
+chamada:
+
+teste();
+
+//Resultado
+teste
+
+//Simples assim. Mas vamos continuar, podemos passar parâ-
+metros para sua função, ela se localiza dentro dos parentê-
+ses.
+
+function say_my_name(name) {
+    console.log('Your name is:  + name');
+}
+
+say_my_name('Dylan');
+say_my_name('Duda');
+
+//Resultado
+Your name is: Dylan
+Your name is: Duda
+
+
+//Note que você dinamizou o processo com o parâmetro. 
+Como você não devolveu nenhum valor com esta função
+ela é automaticamente chamada de procedimento.
+
+//Mais exemplos, desta vez com retorno
+
+function quadrado(valor) {
+    return valor * valor;
+}
+
+const quadrado_de_dez = quadrado(10);
+console.log(quadrado_de_dez)
+
+//Resultado
+100
+
+//////////////////////////////////////////////////////////
+            Organizando nosso código
+//////////////////////////////////////////////////////////
+Nosso código principal sempre será colocado dentro de uma
+função chamada main:
+
+function main() {
+    console.log('Programa principal');
+}
+
+main();
+
+//Resultado
+Programa principal
+
+//Abaixo você vai continuar seu código, abaixo da main, no
+caso...
+
+//////////////////////////////////////////////////////////
+                Função Imediatamente Invocada
+//////////////////////////////////////////////////////////
+
+Ela se cria e se executa por imediatismo, devivo ao "()" em
+seu fim..:
+
+    (function () {
+        const peso = 75;
+        const altura = 1.75;
+        
+        const imc = calcular_imc(peso, altura);
+        console.log(classificar_imc(imc));
+    })();
+
+Neste caso ela foi retirada do "imc_com_func.js" da pasta
+e não necessitou mais que tivesse nome "main", uma vez que
+ela se executa por imediatismo.
+Muito utilizado em web, por ser o primeiro e ser executado uma
+vez somente.
